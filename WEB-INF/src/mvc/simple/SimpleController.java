@@ -29,7 +29,7 @@ public class SimpleController extends HttpServlet{
 
         if (type == null || type.equals("greeting")) {
             resultObject = "안녕하세요";
-        }else if (type.equals("data")) {
+        }else if (type.equals("date")) {
             resultObject = new Date();
         }else{
             resultObject = "Invalid type";
