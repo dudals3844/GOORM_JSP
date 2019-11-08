@@ -5,7 +5,7 @@
     xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
     version="3.0">
 
-	<!-- <servlet>
+	<servlet>
 		<servlet-name>ControllerUsingURI</servlet-name>
 		<servlet-class>mvc.controller.ControllerUsingURI</servlet-class>
 		<init-param>
@@ -18,7 +18,7 @@
 	<servlet-mapping>
 		<servlet-name>ControllerUsingURI</servlet-name>
 		<url-pattern>*.do</url-pattern>
-	</servlet-mapping> -->
+	</servlet-mapping>
 
 
 	<servlet>
