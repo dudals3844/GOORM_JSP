@@ -11,7 +11,7 @@
 		<init-param>
 			<param-name>configFile</param-name>
 			<param-value>/WEB-INF/commandHandlerURI.properties</param-value>
-		<init-param>
+		</init-param>
 			<load-on-startup>1</load-on-startup>
 	</servlet>
 
@@ -27,7 +27,7 @@
 		<init-param>
 			<param-name>configFile</param-name>
 			<param-value>/WEB-INF/commandHandler.properties</param-value>
-		<init-param>
+		</init-param>
 			<load-on-startup>1</load-on-startup>
 	</servlet>
 
