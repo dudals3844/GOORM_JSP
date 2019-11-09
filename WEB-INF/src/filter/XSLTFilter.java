@@ -37,7 +37,7 @@ public class XSLTFilter implements Filter {
         response.setContentType("text/html; charset=utf-8");
         PrintWriter writer = response.getWriter();
         XSLTResponseWrapper responseWrapper = new XSLTResponseWrapper((HttpServletResponse) response);
-        chain.doFilter(request, response);
+        chain.doFilter(request, responseWrapper);
         
         
         try {
